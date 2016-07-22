@@ -48,7 +48,7 @@
     </FrameLayout>
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/to_page1_Btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -59,6 +59,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#ffffff"
         android:textSize="24dp"
-        android:onClick="switchActivity" />
+        android:onClick="switchActivity"
+        android:fontFamily="sans-serif-light" />
 
 </FrameLayout>

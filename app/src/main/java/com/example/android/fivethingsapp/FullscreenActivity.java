@@ -1,6 +1,7 @@
 package com.example.android.fivethingsapp;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -159,5 +160,16 @@ public class FullscreenActivity extends AppCompatActivity {
     private void delayedHide(int delayMillis) {
         mHideHandler.removeCallbacks(mHideRunnable);
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
+    }
+    public void switchActivity(View view){
+
+        int btnId = view.getId();
+
+        switch (btnId) {
+            case R.id.to_page1_Btn:
+                Intent Intent_page1 = new Intent(this, MainActivity.class);
+                startActivity(Intent_page1);
+                break;
+        }
     }
 }

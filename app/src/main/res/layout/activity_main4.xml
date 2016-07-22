@@ -35,9 +35,10 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Beginner&apos;s Guide"
+                android:text="Read the Guide first."
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-light" />
 
             <View
                 android:layout_width="match_parent"
@@ -53,7 +54,7 @@
                 android:layout_alignTop="@+id/textView"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:layout_marginTop="48dp"
+                android:layout_marginTop="36dp"
                 android:layout_toEndOf="@+id/textView"
                 android:layout_toRightOf="@+id/textView"
                 android:text="Betting Guide website"
@@ -61,6 +62,25 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textIsSelectable="false"
                 android:textColor="#008cff"
+                android:textStyle="italic"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@+id/textView"
+                android:layout_toRightOf="@+id/textView"
+                android:text="http://special.hkjc.com/racing/info/en/betting/guide.asp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textIsSelectable="false"
+                android:fontFamily="sans-serif-light"
                 android:textStyle="italic" />
 
             <TextView
@@ -77,7 +97,8 @@
                 android:text="This betting guide pilots you through an array of the Club&apos;s pari-mutuel pools, fixed odds bet types, betting formulas and procedures, adding to your enjoyment of horse racing."
                 android:textAlignment="gravity"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"
+                android:fontFamily="sans-serif-light" />
 
             <TextView
                 android:id="@+id/to_page5_Btn"
@@ -86,7 +107,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="36dp"
                 android:onClick="switchActivity"
                 android:text="next >"
                 android:textAppearance="?android:attr/textAppearanceLarge"

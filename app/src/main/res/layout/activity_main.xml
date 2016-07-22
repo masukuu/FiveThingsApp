@@ -35,9 +35,10 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:text="about Horse Racing"
+                android:text="About the Racing"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-light" />
 
             <View
                 android:layout_width="match_parent"
@@ -47,19 +48,39 @@
                 android:background="@android:color/darker_gray"></View>
 
             <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_toEndOf="@+id/textView"
+                android:layout_toRightOf="@+id/textView"
+                android:text="masuku     21 July 2016"
+                android:textAlignment="gravity"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textIsSelectable="false"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:textColor="#008cff" />
+
+            <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignTop="@+id/textView"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:layout_marginTop="48dp"
+                android:layout_marginTop="36dp"
                 android:layout_toEndOf="@+id/textView"
                 android:layout_toRightOf="@+id/textView"
                 android:text="Horse racing in Hong Kong commenced in 1841 with the arrival of the British, who immediately set about draining a malarial swamp to form a racetrack at Happy Valley. With the exception of a few years during World War II, the track has seen non-stop action ever since. The Hong Kong Jockey Club was founded in 1884 and changed from an amateur to a professional organisation in 1971. A second racecourse was opened at Sha Tin in 1978."
                 android:textAlignment="gravity"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"
+                android:fontFamily="sans-serif-light" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -75,7 +96,8 @@
                 android:text="Nothing beats the excitement of mid-week racing under the lights at Happy Valley. Surrounded by skyscrapers and looped by Hong Kong Island&apos;s famous tramline, Happy Valley racing is so popular that thousands of racegoers will come to enjoy the party atmosphere. Whether in the Public Enclosure or a private box, the views are excellent; the atmosphere is electric and the racing is first-class."
                 android:textAlignment="gravity"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"
+                android:fontFamily="sans-serif-light" />
 
             <TextView
                 android:id="@+id/to_page2_Btn"
@@ -84,7 +106,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="36dp"
                 android:text="next >"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="#008cff"

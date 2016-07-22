@@ -35,15 +35,16 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:text="&quot;The race season&quot;"
+                android:text="When can I go?"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-light" />
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:layout_marginLeft="150dp"
-                android:layout_marginRight="150dp"
+                android:layout_height="0.3dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
                 android:background="@android:color/darker_gray"></View>
 
             <TextView
@@ -59,7 +60,8 @@
                 android:text="The racing season starts in September and runs to July of the following year."
                 android:textAlignment="gravity"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"
+                android:fontFamily="sans-serif-light" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -70,7 +72,8 @@
                 android:layout_marginLeft="36dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="36dp"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:fontFamily="sans-serif-light" />
 
             <TextView
                 android:id="@+id/to_page3_Btn"
@@ -79,7 +82,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
-                android:layout_marginTop="48dp"
+                android:layout_marginTop="36dp"
                 android:text="next >"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="#008cff"
